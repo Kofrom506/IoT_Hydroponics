@@ -2382,7 +2382,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2542ca9a-ab06-43ce-be0c-24bcd5a005fd)
   )
-  (label "PUMP1_DIGITAL" (at 179.07 62.23 0) (fields_autoplaced)
+  (label "PUMP2_DIGITAL" (at 179.07 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 26e5ccd4-9caa-42a2-bab9-8c8c24b1ef6e)
   )
@@ -2394,7 +2394,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3646c012-3c9f-4892-8fd6-f230ca3a4446)
   )
-  (label "PUMP2_DIGITAL" (at 179.07 64.77 0) (fields_autoplaced)
+  (label "PUMP1_DIGITAL" (at 179.07 64.77 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39165c0d-1f0a-4aec-9da0-1cbe6088c9f5)
   )
@@ -2686,7 +2686,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 151.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00dbbf43-5d87-41c3-8cbf-967acbb0fbaa)
-    (property "Reference" "#PWR016" (at 147.32 151.13 0)
+    (property "Reference" "#PWR027" (at 147.32 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 139.7 151.13 90)
@@ -2702,7 +2702,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2711,7 +2711,7 @@
   (symbol (lib_id "power:+5V") (at 94.615 159.385 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 046c280e-6ae0-48d4-a7bb-de835eb3c6f6)
-    (property "Reference" "#PWR06" (at 98.425 159.385 0)
+    (property "Reference" "#PWR032" (at 98.425 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 159.385 90)
@@ -2727,7 +2727,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2736,7 +2736,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 143.51 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0562753f-57ae-45c6-a139-344b36c5f33e)
-    (property "Reference" "C4" (at 146.05 59.1439 0)
+    (property "Reference" "C3" (at 146.05 59.1439 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 146.05 61.6839 0)
@@ -2753,7 +2753,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2762,7 +2762,7 @@
   (symbol (lib_id "power:+5V") (at 196.85 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f1e47b5-600b-4913-9650-9bbb06433699)
-    (property "Reference" "#PWR038" (at 200.66 80.01 0)
+    (property "Reference" "#PWR018" (at 200.66 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 193.04 80.01 90)
@@ -2778,7 +2778,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2787,7 +2787,7 @@
   (symbol (lib_id "power:GND") (at 222.25 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13c35a42-7c99-4ac4-aeda-595e39e2b3d7)
-    (property "Reference" "#PWR012" (at 222.25 127 0)
+    (property "Reference" "#PWR025" (at 222.25 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 125.73 0)
@@ -2803,7 +2803,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2812,7 +2812,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 161.29 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a4f9370-a2c8-4af3-a737-2b6221f7ef02)
-    (property "Reference" "J9" (at 165.1 83.82 0)
+    (property "Reference" "J3" (at 165.1 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_Switch" (at 157.48 86.36 0)
@@ -2830,7 +2830,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J9") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2893,7 +2893,7 @@
   (symbol (lib_id "power:GND") (at 264.16 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 227b33f5-2608-431b-8515-a712ad5fc590)
-    (property "Reference" "#PWR039" (at 270.51 34.29 0)
+    (property "Reference" "#PWR06" (at 270.51 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 34.29 90)
@@ -2909,7 +2909,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2918,7 +2918,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 153.67 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 302ef311-b0a1-4bb4-b406-f8c454b02df6)
-    (property "Reference" "C3" (at 156.21 59.1439 0)
+    (property "Reference" "C4" (at 156.21 59.1439 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 156.21 61.6839 0)
@@ -2935,7 +2935,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2944,7 +2944,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 113.665 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30e9deec-bc2d-45ba-9080-93cbe9e5e4d4)
-    (property "Reference" "J3" (at 116.205 171.45 0)
+    (property "Reference" "J10" (at 116.205 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "EC" (at 116.205 173.99 0)
@@ -2962,7 +2962,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J3") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2971,7 +2971,7 @@
   (symbol (lib_id "power:GND") (at 143.51 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33f423f4-3f94-4126-950f-5a47ec24ce4f)
-    (property "Reference" "#PWR028" (at 143.51 76.2 0)
+    (property "Reference" "#PWR015" (at 143.51 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 74.93 0)
@@ -2987,7 +2987,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3058,7 +3058,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.56 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35833dd0-1a75-4fd4-876c-eea5778d9302)
-    (property "Reference" "J8" (at 165.1 182.88 0)
+    (property "Reference" "J12" (at 165.1 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ADS_A3" (at 165.1 185.42 0)
@@ -3076,7 +3076,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J8") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -3085,7 +3085,7 @@
   (symbol (lib_id "power:GND") (at 68.58 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37dd81c5-23ab-4cff-8df0-8c74ea7e2570)
-    (property "Reference" "#PWR024" (at 68.58 46.99 0)
+    (property "Reference" "#PWR08" (at 68.58 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 45.72 0)
@@ -3101,7 +3101,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3110,7 +3110,7 @@
   (symbol (lib_id "power:+5V") (at 38.1 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38d25463-95af-44b9-9195-b11bb07c2da3)
-    (property "Reference" "#PWR04" (at 41.91 156.21 0)
+    (property "Reference" "#PWR029" (at 41.91 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 34.29 156.21 90)
@@ -3126,7 +3126,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3135,7 +3135,7 @@
   (symbol (lib_id "Device:R_Small") (at 256.54 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 3a683610-3bfa-4e74-b662-a23f3517fa0a)
-    (property "Reference" "R3" (at 254 27.94 90)
+    (property "Reference" "R2" (at 254 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 259.08 27.94 90)
@@ -3152,7 +3152,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3161,7 +3161,7 @@
   (symbol (lib_id "Device:R_Small") (at 208.28 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ae859b1-f5f6-40d1-9334-65f7a015474a)
-    (property "Reference" "R5" (at 208.28 152.4 90)
+    (property "Reference" "R6" (at 208.28 152.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 208.28 147.32 90)
@@ -3178,7 +3178,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3187,7 +3187,7 @@
   (symbol (lib_id "power:+3V3") (at 86.36 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f3e2133-1043-44b4-a58d-26d9667731f9)
-    (property "Reference" "#PWR03" (at 86.36 38.1 0)
+    (property "Reference" "#PWR04" (at 86.36 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 86.36 29.845 0)
@@ -3203,7 +3203,32 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 273.05 22.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 42f65f7e-174f-4980-a524-5a67f8e6bf9e)
+    (property "Reference" "#PWR02" (at 273.05 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 273.05 17.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 273.05 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 273.05 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1a75cf0b-c317-44e9-8097-f5280daa18be))
+    (instances
+      (project "Hidroponik_IoT_Cikidang"
+        (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3212,7 +3237,7 @@
   (symbol (lib_id "Device:C_Small") (at 81.28 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43506207-0716-49e5-b838-4daf78a6d732)
-    (property "Reference" "C1" (at 83.82 36.8363 0)
+    (property "Reference" "C2" (at 83.82 36.8363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 83.82 39.3763 0)
@@ -3229,7 +3254,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3264,7 +3289,7 @@
   (symbol (lib_id "Device:R_Small") (at 163.83 57.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 476da523-c73d-49f7-af1d-f9ac118b97dd)
-    (property "Reference" "R2" (at 166.37 57.15 90)
+    (property "Reference" "R4" (at 166.37 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5k" (at 168.91 57.15 90)
@@ -3281,7 +3306,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3290,7 +3315,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x19") (at 217.17 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 480d7de6-0438-4723-84e8-5a2a5fdacb5d)
-    (property "Reference" "J12" (at 219.71 34.29 0)
+    (property "Reference" "J1" (at 219.71 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP_GPIO_LEFT" (at 220.98 52.07 90)
@@ -3324,7 +3349,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J12") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3333,7 +3358,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x19") (at 241.3 57.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 503e205d-fd98-46ce-8891-340254ca3f58)
-    (property "Reference" "J13" (at 238.76 34.29 0)
+    (property "Reference" "J2" (at 238.76 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP_GPIO_RIGHT" (at 237.49 52.07 90)
@@ -3367,7 +3392,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J13") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3376,13 +3401,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 165.1 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51bf68dc-3c76-4cf4-b3c3-bf232f894a1e)
-    (property "Reference" "J11" (at 162.56 106.68 0)
+    (property "Reference" "J4" (at 162.56 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DC_IN_TERMINAL" (at 151.13 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" (at 165.1 100.33 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 165.1 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 100.33 0)
@@ -3393,7 +3418,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J11") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3402,7 +3427,7 @@
   (symbol (lib_id "Device:D_Small") (at 250.19 149.86 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51cdfae6-2e41-4f79-919f-007313498e17)
-    (property "Reference" "D2" (at 245.11 148.59 90)
+    (property "Reference" "D3" (at 245.11 148.59 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "IN4004" (at 241.3 151.13 90)
@@ -3425,7 +3450,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3434,7 +3459,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60653f4d-59bd-4abf-8e20-f01f545f42bf)
-    (property "Reference" "#PWR026" (at 153.67 55.88 0)
+    (property "Reference" "#PWR012" (at 153.67 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 46.99 0)
@@ -3450,7 +3475,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3459,7 +3484,7 @@
   (symbol (lib_id "power:GND") (at 94.615 175.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 652e72b9-2bd0-4dd6-a898-9d2307554ae0)
-    (property "Reference" "#PWR09" (at 88.265 175.26 0)
+    (property "Reference" "#PWR036" (at 88.265 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 175.26 90)
@@ -3475,7 +3500,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3484,7 +3509,7 @@
   (symbol (lib_id "power:GND") (at 196.85 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66c9a8ba-8031-4224-b2ec-20b3b14b81ea)
-    (property "Reference" "#PWR037" (at 190.5 67.31 0)
+    (property "Reference" "#PWR014" (at 190.5 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 67.31 90)
@@ -3500,7 +3525,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3509,7 +3534,7 @@
   (symbol (lib_id "power:+5V") (at 246.38 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c39dc17-14bf-480f-9318-9db3b8d702e4)
-    (property "Reference" "#PWR013" (at 250.19 102.87 0)
+    (property "Reference" "#PWR023" (at 250.19 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 242.57 102.87 90)
@@ -3525,7 +3550,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3534,7 +3559,7 @@
   (symbol (lib_id "power:GND") (at 94.615 161.925 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c687b1c-8dfc-41ff-932c-5c7d41461ef1)
-    (property "Reference" "#PWR07" (at 88.265 161.925 0)
+    (property "Reference" "#PWR033" (at 88.265 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 161.925 90)
@@ -3550,7 +3575,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3559,7 +3584,7 @@
   (symbol (lib_id "Transistor_FET:IRF540N") (at 219.71 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cdb5db5-8cef-4866-bb08-9caf47d6c305)
-    (property "Reference" "Q1" (at 226.06 148.59 0)
+    (property "Reference" "Q2" (at 226.06 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF520" (at 226.06 151.13 0)
@@ -3577,32 +3602,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "Q1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 273.05 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6def10e2-dcb0-4d79-ba90-f4721148f0f8)
-    (property "Reference" "#PWR041" (at 273.05 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 273.05 17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 273.05 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 273.05 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3dc26fab-28a3-4273-89a0-9107bdc6a958))
-    (instances
-      (project "Hidroponik_IoT_Cikidang"
-        (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR041") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -3637,7 +3637,7 @@
   (symbol (lib_id "power:GND") (at 37.465 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 723e5a89-34a2-4ce1-9e27-81e2ce9be237)
-    (property "Reference" "#PWR05" (at 31.115 158.75 0)
+    (property "Reference" "#PWR030" (at 31.115 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.655 158.75 90)
@@ -3653,7 +3653,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3662,7 +3662,7 @@
   (symbol (lib_id "power:+5V") (at 148.59 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 774d1628-7b7f-4224-b57e-80c4144bb9f8)
-    (property "Reference" "#PWR022" (at 152.4 90.17 0)
+    (property "Reference" "#PWR019" (at 152.4 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 144.78 90.17 90)
@@ -3678,7 +3678,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3687,7 +3687,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 187.96 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c20e4f4-3611-4aa6-acb1-73b5ad1747b1)
-    (property "Reference" "#PWR021" (at 50.8 187.96 0)
+    (property "Reference" "#PWR042" (at 50.8 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 58.7041 187.96 90)
@@ -3703,7 +3703,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -3712,7 +3712,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fd69f68-2041-4bf1-9590-94a9d38927b6)
-    (property "Reference" "#PWR027" (at 143.51 55.88 0)
+    (property "Reference" "#PWR011" (at 143.51 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 143.51 46.99 0)
@@ -3728,7 +3728,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3737,7 +3737,7 @@
   (symbol (lib_id "Device:R_Small") (at 208.28 111.76 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e4ea377-cecf-414b-99a0-6c093307d720)
-    (property "Reference" "R6" (at 208.28 114.3 90)
+    (property "Reference" "R5" (at 208.28 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 208.28 109.22 90)
@@ -3754,7 +3754,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3763,7 +3763,7 @@
   (symbol (lib_id "power:GND") (at 143.51 186.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e973e44-22f7-4cd4-b965-55e4a3e82aec)
-    (property "Reference" "#PWR030" (at 137.16 186.69 0)
+    (property "Reference" "#PWR040" (at 137.16 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 186.69 90)
@@ -3779,7 +3779,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -3788,7 +3788,7 @@
   (symbol (lib_id "power:GND") (at 153.67 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 924180d6-cc63-472e-9eab-9aa9d126048b)
-    (property "Reference" "#PWR029" (at 153.67 76.2 0)
+    (property "Reference" "#PWR016" (at 153.67 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 74.93 0)
@@ -3804,7 +3804,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3813,7 +3813,7 @@
   (symbol (lib_id "Device:D_Small") (at 250.19 111.76 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92d3d8e2-db9f-44e9-8950-7a566bac3a39)
-    (property "Reference" "D3" (at 245.11 110.49 90)
+    (property "Reference" "D2" (at 245.11 110.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "IN4004" (at 241.3 113.03 90)
@@ -3836,7 +3836,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3871,7 +3871,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 184.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 975ac026-a371-4ab7-bd8a-f76c0c9beda5)
-    (property "Reference" "#PWR020" (at 147.32 184.15 0)
+    (property "Reference" "#PWR038" (at 147.32 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 139.7 184.15 90)
@@ -3887,7 +3887,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3896,7 +3896,7 @@
   (symbol (lib_id "Device:R_Small") (at 273.05 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98207e3b-a0fe-4205-be43-c276376695ad)
-    (property "Reference" "R4" (at 270.51 27.94 90)
+    (property "Reference" "R3" (at 270.51 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 275.59 27.94 90)
@@ -3913,7 +3913,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3922,7 +3922,7 @@
   (symbol (lib_id "power:GND") (at 143.51 175.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c3feca8-1bad-4932-9806-5ad941a5c8d6)
-    (property "Reference" "#PWR015" (at 137.16 175.26 0)
+    (property "Reference" "#PWR037" (at 137.16 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 175.26 90)
@@ -3938,7 +3938,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3947,7 +3947,7 @@
   (symbol (lib_id "Device:C_Small") (at 68.58 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d0d348c-cb48-435d-ae4c-cf13f29c1e3f)
-    (property "Reference" "C2" (at 62.23 36.83 0)
+    (property "Reference" "C1" (at 62.23 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 62.23 39.37 0)
@@ -3964,7 +3964,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3973,7 +3973,7 @@
   (symbol (lib_id "Transistor_FET:IRF540N") (at 219.71 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e6b7ad9-dc05-450e-a19f-173966900208)
-    (property "Reference" "Q2" (at 226.06 110.49 0)
+    (property "Reference" "Q1" (at 226.06 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF520" (at 226.06 113.03 0)
@@ -3991,7 +3991,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -4000,7 +4000,7 @@
   (symbol (lib_id "power:GND") (at 94.615 187.325 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f3d634e-ba81-42a5-815a-82173fe619d6)
-    (property "Reference" "#PWR011" (at 88.265 187.325 0)
+    (property "Reference" "#PWR041" (at 88.265 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 187.325 90)
@@ -4016,7 +4016,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -4025,7 +4025,7 @@
   (symbol (lib_id "power:+5V") (at 148.59 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2fbf80c-74e4-4db5-85e6-93e6085fb28a)
-    (property "Reference" "#PWR035" (at 152.4 100.33 0)
+    (property "Reference" "#PWR021" (at 152.4 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 144.78 100.33 90)
@@ -4041,7 +4041,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4050,7 +4050,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 55.88 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3634f46-4579-44da-8c5d-0de842562737)
-    (property "Reference" "J1" (at 59.055 166.37 0)
+    (property "Reference" "J9" (at 59.055 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ADS1115" (at 59.055 168.91 0)
@@ -4075,7 +4075,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J1") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -4084,7 +4084,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5616b01-88de-429b-ba47-a920135858d8)
-    (property "Reference" "#PWR014" (at 147.32 172.72 0)
+    (property "Reference" "#PWR035" (at 147.32 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 139.7 172.72 90)
@@ -4100,7 +4100,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4109,7 +4109,7 @@
   (symbol (lib_id "power:GND") (at 143.51 153.67 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6df34d4-c1b4-4d6a-971f-df53dafec4f9)
-    (property "Reference" "#PWR017" (at 137.16 153.67 0)
+    (property "Reference" "#PWR028" (at 137.16 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 153.67 90)
@@ -4125,7 +4125,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4134,7 +4134,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.56 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa63a81b-45a1-456c-b91d-21e8ade37531)
-    (property "Reference" "J6" (at 165.1 171.45 0)
+    (property "Reference" "J11" (at 165.1 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ADS_A2" (at 165.1 173.99 0)
@@ -4152,7 +4152,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J6") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -4161,7 +4161,7 @@
   (symbol (lib_id "power:GND") (at 148.59 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2f181ff-157c-41e5-b8aa-e62c3cfed869)
-    (property "Reference" "#PWR036" (at 142.24 102.87 0)
+    (property "Reference" "#PWR022" (at 142.24 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 102.87 90)
@@ -4177,7 +4177,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4186,7 +4186,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 261.62 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6576efb-d64a-4905-9b63-46b8c79ea0d7)
-    (property "Reference" "J10" (at 264.16 148.59 0)
+    (property "Reference" "J6" (at 264.16 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PUMP" (at 264.16 151.13 0)
@@ -4203,7 +4203,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J10") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -4212,7 +4212,7 @@
   (symbol (lib_id "power:GND") (at 163.83 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8254567-eb40-4bc1-8828-283c13136881)
-    (property "Reference" "#PWR031" (at 163.83 76.2 0)
+    (property "Reference" "#PWR017" (at 163.83 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 74.93 0)
@@ -4228,7 +4228,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4237,7 +4237,7 @@
   (symbol (lib_id "power:GND") (at 264.16 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c47f4dcb-1430-486a-84f1-c073035da5e1)
-    (property "Reference" "#PWR040" (at 270.51 49.53 0)
+    (property "Reference" "#PWR010" (at 270.51 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 49.53 90)
@@ -4253,7 +4253,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4262,7 +4262,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 113.665 184.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4bb7b2e-18c3-4802-b73f-5fccfecf9ac6)
-    (property "Reference" "J4" (at 116.205 183.515 0)
+    (property "Reference" "J13" (at 116.205 183.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PH" (at 116.205 186.055 0)
@@ -4280,7 +4280,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J4") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -4289,7 +4289,7 @@
   (symbol (lib_id "power:GND") (at 148.59 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c71b748a-358b-4eb8-9e0d-85ad9eca4214)
-    (property "Reference" "#PWR023" (at 142.24 95.25 0)
+    (property "Reference" "#PWR020" (at 142.24 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 95.25 90)
@@ -4305,7 +4305,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4340,7 +4340,7 @@
   (symbol (lib_id "power:+5V") (at 246.38 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da4b4526-82a4-4ac3-b538-0b20af6a58dc)
-    (property "Reference" "#PWR034" (at 250.19 140.97 0)
+    (property "Reference" "#PWR026" (at 250.19 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 242.57 140.97 90)
@@ -4356,7 +4356,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4365,7 +4365,7 @@
   (symbol (lib_id "power:+5V") (at 163.83 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db44a4a3-ecd5-4958-81a0-72e5fa9bf4ab)
-    (property "Reference" "#PWR032" (at 163.83 55.88 0)
+    (property "Reference" "#PWR013" (at 163.83 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 163.83 46.99 0)
@@ -4381,7 +4381,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4390,7 +4390,7 @@
   (symbol (lib_id "power:+3V3") (at 196.85 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e442c3b7-454f-4f18-adf3-6b25db08b938)
-    (property "Reference" "#PWR018" (at 200.66 34.29 0)
+    (property "Reference" "#PWR05" (at 200.66 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 193.04 34.29 90)
@@ -4406,7 +4406,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4415,7 +4415,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 113.665 159.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4732e5b-665e-43a8-b3af-1d42154ab2ea)
-    (property "Reference" "J2" (at 116.205 158.115 0)
+    (property "Reference" "J8" (at 116.205 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DS18B20" (at 116.205 160.655 0)
@@ -4433,7 +4433,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "J2") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -4442,7 +4442,7 @@
   (symbol (lib_id "power:+5V") (at 94.615 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7405fb8-1dd0-4bab-9c92-ad3d6c8a1ff6)
-    (property "Reference" "#PWR08" (at 98.425 172.72 0)
+    (property "Reference" "#PWR034" (at 98.425 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 172.72 90)
@@ -4458,7 +4458,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4493,7 +4493,7 @@
   (symbol (lib_id "power:GND") (at 81.28 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea9fec37-800c-4a3c-864d-3fb28360425a)
-    (property "Reference" "#PWR025" (at 81.28 46.99 0)
+    (property "Reference" "#PWR09" (at 81.28 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 45.6833 0)
@@ -4509,32 +4509,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 256.54 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid eb9b36c7-a6f4-43df-bf83-fd913adf8425)
-    (property "Reference" "#PWR042" (at 256.54 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 256.54 17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 256.54 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a4889b17-2bc5-4e57-9460-e55d8ceb9d78))
-    (instances
-      (project "Hidroponik_IoT_Cikidang"
-        (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4543,7 +4518,7 @@
   (symbol (lib_id "power:GND") (at 222.25 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeacfb21-7847-4a89-9d6a-2ee2ff57d7d2)
-    (property "Reference" "#PWR033" (at 222.25 165.1 0)
+    (property "Reference" "#PWR031" (at 222.25 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 163.83 0)
@@ -4559,7 +4534,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4594,7 +4569,7 @@
   (symbol (lib_id "power:GND") (at 38.1 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4d69f52-105e-4b2b-9662-d0d78bde9fbd)
-    (property "Reference" "#PWR019" (at 38.1 29.21 0)
+    (property "Reference" "#PWR07" (at 38.1 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 30.48 0)
@@ -4610,7 +4585,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4619,7 +4594,7 @@
   (symbol (lib_id "power:GND") (at 73.66 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f90ef358-e8ea-4d21-bed5-ec4e3c21735d)
-    (property "Reference" "#PWR01" (at 73.66 123.19 0)
+    (property "Reference" "#PWR024" (at 73.66 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 121.92 0)
@@ -4635,7 +4610,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4644,7 +4619,7 @@
   (symbol (lib_id "power:+5V") (at 94.615 184.785 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb645390-41fe-466e-a96f-2e00593bbdd0)
-    (property "Reference" "#PWR010" (at 98.425 184.785 0)
+    (property "Reference" "#PWR039" (at 98.425 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 184.785 90)
@@ -4660,7 +4635,7 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4669,7 +4644,7 @@
   (symbol (lib_id "power:+5V") (at 64.77 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb6d4687-f02b-4e1b-9256-b3e091b26c52)
-    (property "Reference" "#PWR02" (at 64.77 38.1 0)
+    (property "Reference" "#PWR03" (at 64.77 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 64.77 29.845 0)
@@ -4685,7 +4660,32 @@
     (instances
       (project "Hidroponik_IoT_Cikidang"
         (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 256.54 22.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fe4df47e-286d-4fc3-b19f-18a8175e92a7)
+    (property "Reference" "#PWR01" (at 256.54 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 256.54 17.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 256.54 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ceb0b867-7591-4b09-a4d3-e59d094cc65b))
+    (instances
+      (project "Hidroponik_IoT_Cikidang"
+        (path "/b0a95a89-a5ca-444f-aff6-2e93a9826d99"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
